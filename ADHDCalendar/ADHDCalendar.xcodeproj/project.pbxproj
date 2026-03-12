@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		819DF4BAE5B94741951ECB8D /* ADHDCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90AF5F608A74C98BB66E509 /* ADHDCalendarApp.swift */; };
+		EDDF1675DE5D4D45A8A1DB1D /* ADHDCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF324E571A84C90B4F7315E /* ADHDCategory.swift */; };
+		A5A17AD45B8041EE88CED261 /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4625FA51A459EA0A8D6F5 /* CalendarEvent.swift */; };
+		E4025BF088E5453092154E07 /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B598F053297D4320A6C2F6D6 /* CalendarDay.swift */; };
+		4F260E17EA9B442DB35AAC5A /* EventKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D5CC0FDE0F40ACA7AEE320 /* EventKitService.swift */; };
+		99BD5E4FC32F4E3AAB5C8A61 /* CategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A9F76C04D240528F34D50C /* CategoryService.swift */; };
+		DD0B02B78BA14FABA891C058 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555167ABEEC4723B8B62EE2 /* CalendarViewModel.swift */; };
+		6B2FB4CDF9434353A8C87278 /* EventDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D906CA0DC9654E9C98722FC8 /* EventDetailViewModel.swift */; };
+		EA624782E8614C968C12788D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB314A6F31494544B055EB78 /* ContentView.swift */; };
+		AD8BCFEF5B31490887D1FE33 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C434F0D8E8EE474597DDEA0D /* MonthView.swift */; };
+		321042C02CA44064AFB9ED8F /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7267B6743A9944E1A838392B /* DayView.swift */; };
+		404545B2F0FB490CB44641A5 /* WeekStripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239C14694254BDAA3153ACE /* WeekStripView.swift */; };
+		0B4667BC75FE441C9099093C /* EventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8442B300749D1AAC51DE9 /* EventCard.swift */; };
+		A7E4E16050CA412C855BD0D1 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E9A07B7534CD7B286B106 /* EventDetailView.swift */; };
+		6D629D903B4B47938F2D3E2E /* EventEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028852F707884F9DB041AF3F /* EventEditView.swift */; };
+		0ABC61818B0945E68A867C8C /* ADHDColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86D4932B74E481A917080B4 /* ADHDColorPalette.swift */; };
+		DF639542E8A0431799CBA03F /* TimeBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AB7D36568C48EEAFD90D16 /* TimeBlockView.swift */; };
+		59F8214EC7AD4E38883F4301 /* CategoryBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CD9B6D996A461B9725CF35 /* CategoryBadge.swift */; };
+		E06F8EA29464485281EBCD4B /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A6AE3FAE04A99B1587E1E /* DateExtensions.swift */; };
+		98B44A5382C54B7F9972FB06 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7E5766F85456A914A9401 /* ColorExtensions.swift */; };
+		B99BFF67E5C2403BBF443BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA460BA29447432085A6999D /* Assets.xcassets */; };
+		A9643FD554CD475BB1BDEF1B /* ADHDCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2318F0CA4346E1B8AF72FE /* ADHDCalendarTests.swift */; };
+		CF56DEBF6C954490959266CC /* ADHDCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE54EF779D7449DA7DC5950 /* ADHDCalendarUITests.swift */; };
+		D95A0D09D571430996332E87 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4508C9FB74482092B0E418 /* EventKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C90AF5F608A74C98BB66E509 /* ADHDCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ADHDCalendarApp.swift"; sourceTree = "<group>"; };
+		9BF3AADD31D4466B87CA8E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		FCF324E571A84C90B4F7315E /* ADHDCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ADHDCategory.swift"; sourceTree = "<group>"; };
+		87A4625FA51A459EA0A8D6F5 /* CalendarEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalendarEvent.swift"; sourceTree = "<group>"; };
+		B598F053297D4320A6C2F6D6 /* CalendarDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalendarDay.swift"; sourceTree = "<group>"; };
+		E9D5CC0FDE0F40ACA7AEE320 /* EventKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventKitService.swift"; sourceTree = "<group>"; };
+		C3A9F76C04D240528F34D50C /* CategoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CategoryService.swift"; sourceTree = "<group>"; };
+		F555167ABEEC4723B8B62EE2 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalendarViewModel.swift"; sourceTree = "<group>"; };
+		D906CA0DC9654E9C98722FC8 /* EventDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventDetailViewModel.swift"; sourceTree = "<group>"; };
+		CB314A6F31494544B055EB78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+		C434F0D8E8EE474597DDEA0D /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MonthView.swift"; sourceTree = "<group>"; };
+		7267B6743A9944E1A838392B /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayView.swift"; sourceTree = "<group>"; };
+		9239C14694254BDAA3153ACE /* WeekStripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeekStripView.swift"; sourceTree = "<group>"; };
+		11A8442B300749D1AAC51DE9 /* EventCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventCard.swift"; sourceTree = "<group>"; };
+		A63E9A07B7534CD7B286B106 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventDetailView.swift"; sourceTree = "<group>"; };
+		028852F707884F9DB041AF3F /* EventEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventEditView.swift"; sourceTree = "<group>"; };
+		A86D4932B74E481A917080B4 /* ADHDColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ADHDColorPalette.swift"; sourceTree = "<group>"; };
+		15AB7D36568C48EEAFD90D16 /* TimeBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeBlockView.swift"; sourceTree = "<group>"; };
+		22CD9B6D996A461B9725CF35 /* CategoryBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CategoryBadge.swift"; sourceTree = "<group>"; };
+		4A2A6AE3FAE04A99B1587E1E /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateExtensions.swift"; sourceTree = "<group>"; };
+		4BE7E5766F85456A914A9401 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorExtensions.swift"; sourceTree = "<group>"; };
+		EA460BA29447432085A6999D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		FC2318F0CA4346E1B8AF72FE /* ADHDCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ADHDCalendarTests.swift"; sourceTree = "<group>"; };
+		BBE54EF779D7449DA7DC5950 /* ADHDCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ADHDCalendarUITests.swift"; sourceTree = "<group>"; };
+		2E4508C9FB74482092B0E418 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		949D9F4694BE42E886A7DE45 /* ADHDCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADHDCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8492AF1FB8014A16B7FF9FC9 /* ADHDCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADHDCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB3B998EDD54BB3BCFFAA66 /* ADHDCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADHDCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F676689BAE9E4F8A8626C89B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95A0D09D571430996332E87 /* EventKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FBDD64EBD24A4C93A87F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99DF60C06FB47C39A05F6AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1B7B2D94EE4F7AA72DC59D = {
+			isa = PBXGroup;
+			children = (
+				CF3F9058E0B84E1193181C46 /* ADHDCalendar */,
+				344F068CE2044E92BBE780DD /* ADHDCalendarTests */,
+				E1ACC7E705F646C5A3F9F396 /* ADHDCalendarUITests */,
+				0351AFC816AE4B3EB0FA797E /* Products */,
+			);
+			name = "ADHDCalendar";
+			sourceTree = "<group>";
+		};
+		0351AFC816AE4B3EB0FA797E = {
+			isa = PBXGroup;
+			children = (
+				949D9F4694BE42E886A7DE45 /* ADHDCalendar.app */,
+				8492AF1FB8014A16B7FF9FC9 /* ADHDCalendarTests.xctest */,
+				BEB3B998EDD54BB3BCFFAA66 /* ADHDCalendarUITests.xctest */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		CF3F9058E0B84E1193181C46 = {
+			isa = PBXGroup;
+			children = (
+				C90AF5F608A74C98BB66E509 /* ADHDCalendarApp.swift */,
+				9BF3AADD31D4466B87CA8E83 /* Info.plist */,
+				EA460BA29447432085A6999D /* Assets.xcassets */,
+				9A5DCA3EB098449FA3B8C134 /* Models */,
+				9502D83809134099A6EAC954 /* Services */,
+				93FD83EED1BE4B69B0DCAC14 /* ViewModels */,
+				CF1E36259296407EA4975474 /* Views */,
+				EB1C11F9147A46499FB68ABE /* Utilities */,
+			);
+			path = "ADHDCalendar";
+			sourceTree = "<group>";
+		};
+		9A5DCA3EB098449FA3B8C134 = {
+			isa = PBXGroup;
+			children = (
+				FCF324E571A84C90B4F7315E /* ADHDCategory.swift */,
+				87A4625FA51A459EA0A8D6F5 /* CalendarEvent.swift */,
+				B598F053297D4320A6C2F6D6 /* CalendarDay.swift */,
+			);
+			path = "Models";
+			sourceTree = "<group>";
+		};
+		9502D83809134099A6EAC954 = {
+			isa = PBXGroup;
+			children = (
+				E9D5CC0FDE0F40ACA7AEE320 /* EventKitService.swift */,
+				C3A9F76C04D240528F34D50C /* CategoryService.swift */,
+			);
+			path = "Services";
+			sourceTree = "<group>";
+		};
+		93FD83EED1BE4B69B0DCAC14 = {
+			isa = PBXGroup;
+			children = (
+				F555167ABEEC4723B8B62EE2 /* CalendarViewModel.swift */,
+				D906CA0DC9654E9C98722FC8 /* EventDetailViewModel.swift */,
+			);
+			path = "ViewModels";
+			sourceTree = "<group>";
+		};
+		CF1E36259296407EA4975474 = {
+			isa = PBXGroup;
+			children = (
+				CB314A6F31494544B055EB78 /* ContentView.swift */,
+				490D7CC56E1E4A8B9E63A34C /* Calendar */,
+				ED18ACE318024DB0A0C22A8A /* Events */,
+				0D272E723B9D45DEBE4AC673 /* Components */,
+			);
+			path = "Views";
+			sourceTree = "<group>";
+		};
+		490D7CC56E1E4A8B9E63A34C = {
+			isa = PBXGroup;
+			children = (
+				C434F0D8E8EE474597DDEA0D /* MonthView.swift */,
+				7267B6743A9944E1A838392B /* DayView.swift */,
+				9239C14694254BDAA3153ACE /* WeekStripView.swift */,
+			);
+			path = "Calendar";
+			sourceTree = "<group>";
+		};
+		ED18ACE318024DB0A0C22A8A = {
+			isa = PBXGroup;
+			children = (
+				11A8442B300749D1AAC51DE9 /* EventCard.swift */,
+				A63E9A07B7534CD7B286B106 /* EventDetailView.swift */,
+				028852F707884F9DB041AF3F /* EventEditView.swift */,
+			);
+			path = "Events";
+			sourceTree = "<group>";
+		};
+		0D272E723B9D45DEBE4AC673 = {
+			isa = PBXGroup;
+			children = (
+				A86D4932B74E481A917080B4 /* ADHDColorPalette.swift */,
+				15AB7D36568C48EEAFD90D16 /* TimeBlockView.swift */,
+				22CD9B6D996A461B9725CF35 /* CategoryBadge.swift */,
+			);
+			path = "Components";
+			sourceTree = "<group>";
+		};
+		EB1C11F9147A46499FB68ABE = {
+			isa = PBXGroup;
+			children = (
+				4A2A6AE3FAE04A99B1587E1E /* DateExtensions.swift */,
+				4BE7E5766F85456A914A9401 /* ColorExtensions.swift */,
+			);
+			path = "Utilities";
+			sourceTree = "<group>";
+		};
+		344F068CE2044E92BBE780DD = {
+			isa = PBXGroup;
+			children = (
+				FC2318F0CA4346E1B8AF72FE /* ADHDCalendarTests.swift */,
+			);
+			path = "ADHDCalendarTests";
+			sourceTree = "<group>";
+		};
+		E1ACC7E705F646C5A3F9F396 = {
+			isa = PBXGroup;
+			children = (
+				BBE54EF779D7449DA7DC5950 /* ADHDCalendarUITests.swift */,
+			);
+			path = "ADHDCalendarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E46795BD9BA465EAB15B2F5 /* ADHDCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53465951EB724B828C6FAFCB /* Build configuration list for PBXNativeTarget "ADHDCalendar" */;
+			buildPhases = (
+				900F6188AB0A4FCDA980BA52 /* Sources */,
+				F676689BAE9E4F8A8626C89B /* Frameworks */,
+				EEBD270139BD4171B9426822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADHDCalendar;
+			productName = ADHDCalendar;
+			productReference = 949D9F4694BE42E886A7DE45 /* ADHDCalendar */;
+			productType = "com.apple.product-type.application";
+		};
+		834ECA9CA5D3434286ADDE01 /* ADHDCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A489525C964CA7A23B1021 /* Build configuration list for PBXNativeTarget "ADHDCalendarTests" */;
+			buildPhases = (
+				66C7F2AEE5074EBBA19B723E /* Sources */,
+				54FBDD64EBD24A4C93A87F79 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADHDCalendarTests;
+			productName = ADHDCalendarTests;
+			productReference = 8492AF1FB8014A16B7FF9FC9 /* ADHDCalendarTests */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4084314442042DC94ABB490 /* ADHDCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23121F3FCA754BBE8E967EB5 /* Build configuration list for PBXNativeTarget "ADHDCalendarUITests" */;
+			buildPhases = (
+				9DEB1F966E1F41919A4BF4A7 /* Sources */,
+				D99DF60C06FB47C39A05F6AD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADHDCalendarUITests;
+			productName = ADHDCalendarUITests;
+			productReference = BEB3B998EDD54BB3BCFFAA66 /* ADHDCalendarUITests */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61C1567CE49D4ECF9EE02ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9E46795BD9BA465EAB15B2F5 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					834ECA9CA5D3434286ADDE01 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9E46795BD9BA465EAB15B2F5;
+					};
+					A4084314442042DC94ABB490 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9E46795BD9BA465EAB15B2F5;
+					};
+				};
+			};
+			buildConfigurationList = 2AE9EDBDE9254284A76B38C8 /* Build configuration list for PBXProject "ADHDCalendar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE1B7B2D94EE4F7AA72DC59D;
+			productRefGroup = 0351AFC816AE4B3EB0FA797E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E46795BD9BA465EAB15B2F5 /* ADHDCalendar */,
+				834ECA9CA5D3434286ADDE01 /* ADHDCalendarTests */,
+				A4084314442042DC94ABB490 /* ADHDCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEBD270139BD4171B9426822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99BFF67E5C2403BBF443BBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900F6188AB0A4FCDA980BA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819DF4BAE5B94741951ECB8D /* ADHDCalendarApp.swift in Sources */,
+				EDDF1675DE5D4D45A8A1DB1D /* ADHDCategory.swift in Sources */,
+				A5A17AD45B8041EE88CED261 /* CalendarEvent.swift in Sources */,
+				E4025BF088E5453092154E07 /* CalendarDay.swift in Sources */,
+				4F260E17EA9B442DB35AAC5A /* EventKitService.swift in Sources */,
+				99BD5E4FC32F4E3AAB5C8A61 /* CategoryService.swift in Sources */,
+				DD0B02B78BA14FABA891C058 /* CalendarViewModel.swift in Sources */,
+				6B2FB4CDF9434353A8C87278 /* EventDetailViewModel.swift in Sources */,
+				EA624782E8614C968C12788D /* ContentView.swift in Sources */,
+				AD8BCFEF5B31490887D1FE33 /* MonthView.swift in Sources */,
+				321042C02CA44064AFB9ED8F /* DayView.swift in Sources */,
+				404545B2F0FB490CB44641A5 /* WeekStripView.swift in Sources */,
+				0B4667BC75FE441C9099093C /* EventCard.swift in Sources */,
+				A7E4E16050CA412C855BD0D1 /* EventDetailView.swift in Sources */,
+				6D629D903B4B47938F2D3E2E /* EventEditView.swift in Sources */,
+				0ABC61818B0945E68A867C8C /* ADHDColorPalette.swift in Sources */,
+				DF639542E8A0431799CBA03F /* TimeBlockView.swift in Sources */,
+				59F8214EC7AD4E38883F4301 /* CategoryBadge.swift in Sources */,
+				E06F8EA29464485281EBCD4B /* DateExtensions.swift in Sources */,
+				98B44A5382C54B7F9972FB06 /* ColorExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C7F2AEE5074EBBA19B723E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9643FD554CD475BB1BDEF1B /* ADHDCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEB1F966E1F41919A4BF4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF56DEBF6C954490959266CC /* ADHDCalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68B6FB2AD5E445FEB72DB160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1 $(inherited)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		3F9128BAD15B4491B4119297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C52F62077BA4568B0677F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "ADHDCalendar/Preview Content";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ADHDCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnpospisil.ADHDCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AC20C638EE448528B18868A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "ADHDCalendar/Preview Content";
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ADHDCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnpospisil.ADHDCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F43DC2EA6EA4E13A7EE1C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnpospisil.ADHDCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADHDCalendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ADHDCalendar";
+			};
+			name = Debug;
+		};
+		8CEAC2B0298B4638B260D5B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnpospisil.ADHDCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADHDCalendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ADHDCalendar";
+			};
+			name = Release;
+		};
+		592B50BDDAF2419DBBD31711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnpospisil.ADHDCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ADHDCalendar;
+			};
+			name = Debug;
+		};
+		DD4AB14271354849A2C53CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnpospisil.ADHDCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ADHDCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AE9EDBDE9254284A76B38C8 /* Build configuration list for PBXProject "ADHDCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B6FB2AD5E445FEB72DB160 /* Debug */,
+				3F9128BAD15B4491B4119297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53465951EB724B828C6FAFCB /* Build configuration list for PBXNativeTarget "ADHDCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C52F62077BA4568B0677F52 /* Debug */,
+				9AC20C638EE448528B18868A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3A489525C964CA7A23B1021 /* Build configuration list for PBXNativeTarget "ADHDCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F43DC2EA6EA4E13A7EE1C99 /* Debug */,
+				8CEAC2B0298B4638B260D5B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23121F3FCA754BBE8E967EB5 /* Build configuration list for PBXNativeTarget "ADHDCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592B50BDDAF2419DBBD31711 /* Debug */,
+				DD4AB14271354849A2C53CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 61C1567CE49D4ECF9EE02ACE /* Project object */;
+}
