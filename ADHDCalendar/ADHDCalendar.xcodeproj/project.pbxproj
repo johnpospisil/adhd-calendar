@@ -28,6 +28,7 @@
 		E06F8EA29464485281EBCD4B /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A6AE3FAE04A99B1587E1E /* DateExtensions.swift */; };
 		98B44A5382C54B7F9972FB06 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7E5766F85456A914A9401 /* ColorExtensions.swift */; };
 		B99BFF67E5C2403BBF443BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA460BA29447432085A6999D /* Assets.xcassets */; };
+		AA11BB22CC33DD44EE55FF66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB22CC33DD44EE55FF660011 /* Preview Assets.xcassets */; };
 		A9643FD554CD475BB1BDEF1B /* ADHDCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2318F0CA4346E1B8AF72FE /* ADHDCalendarTests.swift */; };
 		CF56DEBF6C954490959266CC /* ADHDCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE54EF779D7449DA7DC5950 /* ADHDCalendarUITests.swift */; };
 		D95A0D09D571430996332E87 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4508C9FB74482092B0E418 /* EventKit.framework */; };
@@ -56,6 +57,7 @@
 		4A2A6AE3FAE04A99B1587E1E /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateExtensions.swift"; sourceTree = "<group>"; };
 		4BE7E5766F85456A914A9401 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorExtensions.swift"; sourceTree = "<group>"; };
 		EA460BA29447432085A6999D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		BB22CC33DD44EE55FF660011 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC2318F0CA4346E1B8AF72FE /* ADHDCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ADHDCalendarTests.swift"; sourceTree = "<group>"; };
 		BBE54EF779D7449DA7DC5950 /* ADHDCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ADHDCalendarUITests.swift"; sourceTree = "<group>"; };
 		2E4508C9FB74482092B0E418 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
@@ -98,7 +100,6 @@
 				E1ACC7E705F646C5A3F9F396 /* ADHDCalendarUITests */,
 				0351AFC816AE4B3EB0FA797E /* Products */,
 			);
-			name = "ADHDCalendar";
 			sourceTree = "<group>";
 		};
 		0351AFC816AE4B3EB0FA797E = {
@@ -122,8 +123,17 @@
 				93FD83EED1BE4B69B0DCAC14 /* ViewModels */,
 				CF1E36259296407EA4975474 /* Views */,
 				EB1C11F9147A46499FB68ABE /* Utilities */,
+				CC33DD44EE55FF66AA11BB22 /* Preview Content */,
 			);
 			path = "ADHDCalendar";
+			sourceTree = "<group>";
+		};
+		CC33DD44EE55FF66AA11BB22 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB22CC33DD44EE55FF660011 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		9A5DCA3EB098449FA3B8C134 = {
@@ -321,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B99BFF67E5C2403BBF443BBB /* Assets.xcassets in Resources */,
+				AA11BB22CC33DD44EE55FF66 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
